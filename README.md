@@ -8,22 +8,22 @@ The sample application is using [Express]([http://example.com/](https://expressj
 * docker-compose (1.23.2+)
 
 ## Usage
-1. Clone this repository on your local machine
+1. Clone this repository on your local machine  
 `git clone https://github.com/MitsuhideOhi/vscode-ts-node-debug-remotely.git`
 
-2. Run the Docker container 
+2. Run the Docker container  
 `docker-compose up --build`
 
-3. Open debug window on VSCode
+3. Open debug window on VSCode  
 ![image](/screenshots/vscode_debug_window.png)
 
 4. Attach debugger by clicking run button
 
-5. Open /src/app.ts and put a breakpoint
+5. Open /src/app.ts and put a breakpoint  
 ![image](/screenshots/breakpoint.png)
 
-6. Open page on `http://localhost:3000/`
+6. Open page on `http://localhost:3000/`  
 ![image](/screenshots/open_page.png)
 
-7. Confirm the process stops at breakpoint
+7. Confirm the process stops at breakpoint  
 ![image](/screenshots/stops_at_breakpoint.png) 
