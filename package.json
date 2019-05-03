@@ -6,7 +6,7 @@
   "repository": "git@github.com:MitsuhideOhi/vscode-ts-node-debug-remotely.git",
   "license": "CC0-1.0",
   "scripts": {
-    "debug": "node -r ts-node/register --inspect=0.0.0.0:9229 --nolazy src/app.ts"
+    "debug": "node -r ts-node/register --inspect=0.0.0.0:9229 src/app.ts"
   },
   "dependencies": {
     "express": "4.16.4"
