@@ -27,3 +27,6 @@ The sample application is using [Express]([http://example.com/](https://expressj
 
 7. Confirm the process stops at breakpoint  
 ![image](/screenshots/stops_at_breakpoint.png) 
+
+# Explanation about the settings
+You can refer to my Blog post [here](https://medium.com/@mitsuhideohi/debugging-uncompiled-typescript-code-running-on-a-docker-container-213418ab2b1f) .
