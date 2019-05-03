@@ -1,0 +1,19 @@
+{
+  "name": "vscode-ts-node-debug-remotely",
+  "version": "1.0.0",
+  "description": "Debugging uncompiled Typescript code running on Docker container using VS Code",
+  "main": "app.ts",
+  "repository": "git@github.com:MitsuhideOhi/vscode-ts-node-debug-remotely.git",
+  "license": "CC0-1.0",
+  "scripts": {
+    "debug": "node -r ts-node/register --inspect=0.0.0.0:9229 --nolazy src/app.ts"
+  },
+  "dependencies": {
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "ts-node": "8.1.0",
+    "typescript": "3.4.5",
+    "@types/express": "4.16.1"
+  }
+}
